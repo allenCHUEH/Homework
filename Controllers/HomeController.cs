@@ -17,7 +17,10 @@ namespace Homework.Controllers
         {
             return View();
         }
-
+        public IActionResult work()
+        {
+            return View();
+        }
         public IActionResult Privacy()
         {
             return View();
